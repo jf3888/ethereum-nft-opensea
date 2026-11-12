@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-nft-opensea",
+  "version": "1.0.0",
+  "description": "Ethereum NFT project for OpenSea deployment with Hardhat and ERC-721",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "ethereum",
+    "nft",
+    "opensea",
+    "hardhat",
+    "erc721"
+  ],
+  "author": "jf3888",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.17"
+  }
+}

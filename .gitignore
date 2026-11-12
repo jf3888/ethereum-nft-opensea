@@ -1,0 +1,10 @@
+# .gitignore
+node_modules/
+cache/
+artifacts/
+.env
+coverage/
+coverage.json
+
+# Hardhat
+*.log
